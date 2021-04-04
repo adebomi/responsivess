@@ -1,0 +1,125 @@
+.container{
+height: 900px;
+background:rgb(211, 200, 200);
+padding: 30px 20px;
+display: flex;
+flex-wrap: wrap;
+margin: 0 auto;
+}
+img{
+    border-radius: 50%;
+    border: 2px solid purple;
+    width: 60px;
+
+}
+.heade{
+flex: 0 0 10%;
+flex-direction: column;
+    
+
+}
+h1{
+    
+}
+p{
+    font-size: 15px;
+}
+
+.box-1{
+    height: 550px;
+    padding: 20px 50px;
+flex: 0 0 40%;
+    background: rgb(66, 2, 66);
+    color: white;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.box-2{
+    height: 550px;
+    padding: 20px 50px;
+    flex: 0 0 15%;
+    background: rgb(59, 50, 50);
+    color: white;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.box-3{
+    flex: 0 0 15%;
+    padding: 20px 50px;
+    background: rgb(252, 246, 246);
+    color: black;
+    margin-right: 20px;
+    border-radius: 10px;
+    float: right;
+}
+.box-4{
+    height: 550px;
+    padding: 20px 50px;
+    background: rgb(248, 241, 241);
+    color: #000;
+    width: 170px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.box-5{
+    height: 550px;
+    padding: 20px 50px;
+    background: #000;
+    flex: 0 0 40%;
+    color: aliceblue;
+    border-radius: 10px;
+}
+@media screen and (max-width: 1400px){
+   .container{
+        width: 100%;
+        justify-items: center;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .box-1{
+width: 100vw;
+padding: 40px 97px;
+height: 850px;
+margin: 10px 5px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .box-2{
+        width: 300vw;
+        padding: 40px 130px;
+        height: 850px;
+        margin: 10px 5px;
+        
+            }
+            .box-3{
+                width: 100vw;
+                padding: 40px 130px;
+                height: 1100px;
+                margin: 10px 5px;
+            
+                    }
+                    .box-4{
+                        width: 100vw;
+                        padding: 40px 100px;
+                        height: 650px;
+                        margin: 10px 5px;
+
+                        
+                            }
+                            .box-5{
+    width: 100vw;
+    padding: 40px 105px;
+    height: 700px;
+    margin: 10px 5px;
+    
+
+    
+        }}
+
+        @media screen and (min-width:567px){
+            .container{
+                width: 100%;
+            }
+        }
